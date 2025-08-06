@@ -9,7 +9,9 @@ const Navbar = () => {
     <>
       <AspectRatio
         ratio={14 / 1}
-        className={cn("w-full flex items-center justify-between bg-[#242424]")}
+        className={cn(
+          "w-full z-50 flex items-center justify-between bg-[#151618]"
+        )}
       >
         <div
           className={cn(Container, "flex w-full justify-between items-center")}
