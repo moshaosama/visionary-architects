@@ -39,8 +39,7 @@ const Hero = () => {
             src="/1.jpg"
             alt="/2.jpg"
             className="w-40 cursor-pointer
-            
-            h-40 object-cover rounded-2xl group-hover:scale-150 group-hover:rounded-2xl transition-all duration-300 group-hover:rotate-6"
+             h-40 object-cover rounded-2xl group-hover:scale-150 group-hover:rounded-2xl transition-all duration-300 group-hover:rotate-6"
           />
         </div>
 
@@ -49,8 +48,7 @@ const Hero = () => {
             src="/3.jpg"
             alt="HeroImage.png"
             className="w-40 h-40 cursor-pointer
-            
-            object-cover rounded-2xl group-hover:scale-150 group-hover:rounded-2xl transition-all duration-300 group-hover:-rotate-6"
+             object-cover rounded-2xl group-hover:scale-150 group-hover:rounded-2xl transition-all duration-300 group-hover:-rotate-6"
           />
         </div>
       </div>
