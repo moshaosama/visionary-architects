@@ -1,69 +1,60 @@
-# React + TypeScript + Vite
+# 🏛️ Visionary Architects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and elegant architecture portfolio website built using **React**, **Tailwind CSS**, **Shadcn UI**, and enhanced with smooth **animations** and **custom hooks**.
 
-Currently, two official plugins are available:
+> "Blending creativity with functionality to reshape your experience."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Homepage Screenshot](./path-to-screenshot.png)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- ⚛️ Built with **React**
+- 🎨 **Tailwind CSS** for modern styling
+- 🧩 **Shadcn UI** components with **CVA** (Class Variance Authority)
+- 🔁 Reusable custom **Hooks**
+- 💫 Smooth and interactive **animations**
+- 📱 Responsive design for all devices
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📂 Tech Stack
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Tech | Description |
+|------|-------------|
+| [React](https://reactjs.org/) | Frontend JavaScript library |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
+| [Shadcn UI](https://ui.shadcn.com/) | Accessible, customizable components |
+| [CVA](https://cva.style/docs) | Class Variance Authority for variants |
+| [Framer Motion](https://www.framer.com/motion/) | Animation library |
+| [Vite](https://vitejs.dev/) | Fast build tool |
+
+---
+
+## 🖼️ Sections Overview
+
+- **Hero Section** – Eye-catching intro
+- **Projects Gallery** – Showcasing architectural works
+- **Services** – Visionary Design, Detailing, Redesign
+- **CTA Links** – View Projects, View More
+- **Responsive Cards** – Built with animations and hover interactions
+
+---
+
+## 📦 Installation
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/visionary-architects.git
+
+# 2. Install dependencies
+cd visionary-architects
+npm install
+
+# 3. Start the dev server
+npm run dev
