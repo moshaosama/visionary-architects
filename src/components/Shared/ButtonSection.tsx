@@ -1,7 +1,7 @@
-const ButtonSection = () => {
+const ButtonSection = ({ Title }: { Title: string }) => {
   return (
-    <div className="absolute top-[70pc] cursor-pointer left-28 flex items-center gap-5 group text-white">
-      <h1 className="text-lg font-semibold">View Projects</h1>
+    <div className="cursor-pointer left-28 flex items-center gap-5 group text-white">
+      <h1 className="text-lg font-semibold">{Title}</h1>
       <img
         src="/circle-arrow.png"
         alt="circle.png"
